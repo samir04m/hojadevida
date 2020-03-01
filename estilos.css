@@ -80,8 +80,8 @@ input[type=number] { -moz-appearance:textfield; }
     background-color: black;
     border-radius: 20px;
     color: white;
-    padding: 5px 10px 5px 10px;
-    font-size: 12px;
+    padding: 5px 8px 5px 8px;
+    font-size: 10px;
 }
 
 .p10 { padding: 10px; }
@@ -91,8 +91,8 @@ input[type=number] { -moz-appearance:textfield; }
     padding-right: 0px;
 }
 .px {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 .py0 {
     padding-top: 0px;
