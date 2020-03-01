@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formato Hoja de Vida</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="hoja">
+        <div class="contenedor-1">
+            <div class="fila">
+                <div class="columna col3">
+                    <img src="escudo.jpg" alt="escudo" class="escudo">
+                </div>
+                <div class="columna col6">
+                    <center>
+                        FORMATO ÚNICO
+                        <h2>HOJA DE VIDA</h2>
+                        Persona Natural <br>
+                        <small>(Leyes 190 de 1995, 489 y 443 de 1998)</small>
+                    </center>
+                </div>
+                <div class="columna col3">
+                    <label for="entidad"><small>ENTIDAD RECEPTORA</small></label>
+                    <input type="text" name="entidad" class="col12 borde">
+                </div>
+            </div>
+        </div>
+
+        <span class="circulo">1</span>
+        <span class="circulo px">DATOS PERSONALES</span>
+
+        <div class="contenedor-2">
+            <div class="fila fuente12">
+                <div class="columna col4 borde">
+                    PRIMER APELLIDO
+                    <input type="text" name="primerapellido" class="col12">
+                </div>
+                <div class="columna col4 borde">
+                    SEGUNDO APELLIDO (O DE CASA)
+                    <input type="text" name="segundoapellido" class="col12">
+                </div>
+                <div class="columna col4 borde">
+                    NOMBRES
+                    <input type="text" name="nombres" class="col12">
+                </div>
+            </div>
+            <div class="fila fuente12">
+                <div class="columna col5 borde">
+                    DOCUMENTO DE IDENTIFICACIÓN
+                    <div class="fila">
+                        <div class="columna col6 sin-padding">
+                            <br>
+                            C.C. <input type="radio" name="id">
+                            C.E. <input type="radio" name="id">
+                            PAS <input type="radio" name="id">
+                        </div>
+                        <div class="columna col6 sin-padding">
+                            <input type="number" name="idnumber" class="col12 input_">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="columna col2 borde">
+                    SEXO <br><br>
+                    F <input type="radio" name="id">
+                    M <input type="radio" name="id">
+                </div>
+                <div class="columna col5 borde">
+                    <div class="fila">
+                        <div class="columna col6 sin-padding">
+                            NACIONALIDAD <br><br>
+                            COL <input type="radio" name="nacio">
+                            EXTRAN <input type="radio" name="nacio">
+                        </div>
+                        <div class="columna col6 sin-padding">
+                            PAIS
+                            <input type="text" name="pais" class="col12 input_">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fila fuente12">
+                <div class="columna col12 borde">
+                    LIBRETA MILITAR
+                    <div class="fila">
+                        <div class="columna col3 sin-padding"><br>
+                            PRIMERA CLASE <input type="radio" name="clase">
+                        </div>
+                        <div class="columna col3 sin-padding"><br>
+                            SEGUNDA CLASE <input type="radio" name="clase">
+                        </div>
+                        <div class="columna col1 sin-padding">
+                            <center><br>NÙMERO</center>
+                        </div>
+                        <div class="columna col2 sin-padding">
+                            <input type="number" name="numero" class="col12 input_">
+                        </div>
+                        <div class="columna col1 sin-padding">
+                            <center><br>D.M</center>
+                        </div>
+                        <div class="columna col2 sin-padding">
+                            <input type="number" name="dm" class="col12 input_">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fila fuente12">
+                <div class="columna col6 borde">
+                    FECHA Y LUGAR DE NACIMIENTO
+                    <div class="fila">
+                        <div class="columna col2"><br>FECHA</div>
+                        <div class="columna col1"><br>DIA</div>
+                        <div class="columna col2">
+                            <div class="fila">
+                                <input type="number" name="dia1" class="col6 borde">
+                                <input type="number" name="dia2" class="col6 borde">
+                            </div>
+                        </div>
+
+                        <div class="columna col1"><br>MES</div>
+                        <div class="columna col2">
+                            <div class="fila">
+                                <input type="number" name="mes1" class="col6 borde">
+                                <input type="number" name="mes2" class="col6 borde">
+                            </div>
+                        </div>
+
+                        <div class="columna col1"><br>AÑO</div>
+                        <div class="columna col3">
+                            <div class="fila">
+                                <input type="number" name="ano1" class="col3 borde">
+                                <input type="number" name="ano2" class="col3 borde">
+                                <input type="number" name="ano3" class="col3 borde">
+                                <input type="number" name="ano4" class="col3 borde">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fila">
+                        <div class="columna col3"><br>PAÌS</div>
+                        <div class="columna col9">
+                            <input type="text" name="pais" class="col10 input_">
+                        </div>
+                    </div>
+                    <div class="fila">
+                        <div class="columna col3"><br>DEPTO</div>
+                        <div class="columna col9">
+                            <input type="text" name="depto" class="col10 input_">
+                        </div>
+                    </div>
+                    <div class="fila">
+                        <div class="columna col3"><br>MUNICIPIO</div>
+                        <div class="columna col9">
+                            <input type="text" name="municipio" class="col10 input_">
+                        </div>
+                    </div>
+                </div>
+                <div class="columna col6 borde">
+                    DIRECCIÒN DE CORRESPONDENCIA
+                    <div class="fila">
+                        <input type="text" name="direccion" class="col10 input_">
+                    </div>
+                    <div class="fila">
+                        <div class="columna col1"><br>PAÌS</div>
+                        <div class="columna col4">
+                            <input type="text" name="direccionpais" class="col12 input_">
+                        </div>
+                        <div class="columna col2"><br>DEPTO</div>
+                        <div class="columna col5">
+                            <input type="text" name="direcciondepto" class="col12 input_">
+                        </div>
+                    </div>
+                    <div class="fila">
+                        <div class="columna col3"><br>MUNICIPIO</div>
+                        <div class="columna col9">
+                            <input type="text" name="direccionmun" class="col10 input_">
+                        </div>
+                    </div>
+                    <div class="fila">
+                        <div class="columna col3"><br>TELEFONO</div>
+                        <div class="columna col3">
+                            <input type="number" name="tel" class="col12 input_">
+                        </div>
+                        <div class="columna col2"><br>EMAIL</div>
+                        <div class="columna col4">
+                            <input type="email" name="email" class="col12 input_">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <span class="circulo">2</span>
+        <span class="circulo px">FORMACIÓN ACADÉMICA</span>
+
+        <div class="contenedor-2">
+            <div class="fila fuente12 borde-abajo">
+                <div class="columna col12">
+                    <b>EDUCACIÓN BÁSICA Y MEDIA</b>
+                    <p><small>MARQUE CON UNA X EL ÚLTIMO GRADO APROBADO (LOS GRADOS DE 1o
+                     A 6o. DE BACHILLERATO EQUIVALEN A LOS GRADOS 6o. A 11o. DE
+                     EDUCACIÓN BÁSICA SECUNDARIA Y MEDIA)</small></p>
+                    <div class="fila">
+                        <div class="columna col1"></div>
+                        <div class="columna col10">
+                            <div class="contenedor-tabla borde fuente10">
+                                <div class="fila borde-abajo">
+                                    <div class="columna col6 borde-der sin-padding  centrado">
+                                        <div class="columna col12 borde-abajo py1">EDUCACIÓN BÁSICA</div>
+                                        <div class="fila">
+                                            <div class="columna col5 sin-padding borde-der">
+                                                <div class="py1">PRIMARIA</div>
+                                                <div class="fila borde-arriba">
+                                                    <div class="columna col3 borde-der">
+                                                        1o.<input type="radio" name="grado"></div>
+                                                    <div class="columna col2 borde-der">
+                                                        2o.<input type="radio" name="grado"></div>
+                                                    <div class="columna col2 borde-der">
+                                                        3o.<input type="radio" name="grado"></div>
+                                                    <div class="columna col2 borde-der">
+                                                        4o.<input type="radio" name="grado"></div>
+                                                    <div class="columna col2">
+                                                        5o.<input type="radio" name="grado"></div>
+                                                </div>
+                                            </div>
+                                            <div class="columna col5 sin-padding borde-der">
+                                                <div class="py1">SECUNDARIA</div>
+                                                <div class="fila borde-arriba">
+                                                    <div class="columna col3 borde-der">
+                                                        6o.<input type="radio" name="grado"></div>
+                                                    <div class="columna col3 borde-der">
+                                                        7o.<input type="radio" name="grado"></div>
+                                                    <div class="columna col3 borde-der">
+                                                        8o.<input type="radio" name="grado"></div>
+                                                    <div class="columna col3">
+                                                        9o.<input type="radio" name="grado"></div>
+                                                </div>
+                                            </div>
+                                            <div class="columna col2 sin-padding">
+                                                <div class="py1">MEDIA</div>
+                                                <div class="fila borde-arriba">
+                                                    <div class="columna col6 borde-der">
+                                                        10 <input type="radio" name="grado"></div>
+                                                    <div class="columna col6">
+                                                        11 <input type="radio" name="grado"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="columna col6 sin-padding">
+                                        <div class="columna col12 py1 borde-abajo"> TÍTULO OBTENIDO:</div>
+                                        <div class="columna col12 py1 borde-abajo"> FECHA DE GRADO:</div>
+                                        <div class="columna col12 py0 centrado">
+                                            <div class="fila">
+                                                <div class="columna col5">
+                                                    MES
+                                                    <input type="number" class="col3 borde">
+                                                    <input type="number" class="col3 borde">
+                                                </div>
+                                                <div class="columna col7 py1">
+                                                    AÑO
+                                                    <input type="number" class="col2 borde">
+                                                    <input type="number" class="col2 borde">
+                                                    <input type="number" class="col2 borde">
+                                                    <input type="number" class="col2 borde">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fila fuente10">
+                <div class="columna col12">
+                    <b>EDUCACIÓN SUPERIOS (PREGRADO Y POSGRADO)</b>
+                    <p>DILIGENCIE ESTE PUNTO EN ESTRICTO ORDEN CRONOLOGICO, EN MODALIDAD ACADEMICA ESCRIBA:</p>
+                </div>
+                <div class="columna col3">
+                    <b>TC</b> (TÉCNICA) <br>
+                    <b>ES</b> (ESPECIALIZACIÓN)
+                </div>
+                <div class="columna col3">
+                    <b>TL</b> (TECNOLOIGICA) <br>
+                    <b>MG</b> (MAESTRIA)
+                </div>
+                <div class="columna col4">
+                    <b>TE</b> (TECNOLOGICA ESPECIALIZADA) <br>
+                    <b>DOC</b> (DOCTORADO O PHD)
+                </div>
+                <div class="columna col2">
+                    <b>UN</b> (UNIVERSITARIA) <br>
+                </div>
+                <div class="columna col12">
+                    RELACIONE AL FRENTE EL NÚMERO DE LA TARJETA PROFESIONAL (SI ESTA HA SIDO PREVISTA EN UNA LEY)
+                </div>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th rowspan="2">Modalidad</th>
+                            <th rowspan="2">No. SEMESTRES APROBADOS</th>
+                            <th colspan="2">GRADUADO</th>
+                            <th rowspan="2">NOMBRE DE LOS ESTUDIOS O TITULOS OBTENIDOS</th>
+                            <th colspan="2">TERMINACION</th>
+                            <th rowspan="2">No. TARJETA PROFESIONAL</th>
+                        </tr>
+                        <tr>
+                            <th>SI</th>
+                            <th>NO</th>
+                            <th>MES</th>
+                            <th>AÑO</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="text" class="col12 fuente12"></td>
+                            <td><input type="number" class="col12 fuente12"></td>
+                            <td><input type="radio" name="campo11"></td>
+                            <td><input type="radio" name="campo11"></td>
+                            <td><input type="text" class="col12 fuente12"></td>
+                            <td><input type="number" class="col12 input-mes fuente12"></td>
+                            <td><input type="number" class="col12 input-anio fuente12"></td>
+                            <td><input type="number" class="col12 fuente12"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="col12 fuente12"></td>
+                            <td><input type="number" class="col12 fuente12"></td>
+                            <td><input type="radio" name="campo12"></td>
+                            <td><input type="radio" name="campo12"></td>
+                            <td><input type="text" class="col12 fuente12"></td>
+                            <td><input type="number" class="col12 input-mes fuente12"></td>
+                            <td><input type="number" class="col12 input-anio fuente12"></td>
+                            <td><input type="number" class="col12 fuente12"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="col12 fuente12"></td>
+                            <td><input type="number" class="col12 fuente12"></td>
+                            <td><input type="radio" name="campo13"></td>
+                            <td><input type="radio" name="campo13"></td>
+                            <td><input type="text" class="col12 fuente12"></td>
+                            <td><input type="number" class="col12 input-mes fuente12"></td>
+                            <td><input type="number" class="col12 input-anio fuente12"></td>
+                            <td><input type="number" class="col12 fuente12"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="col12 fuente12"></td>
+                            <td><input type="number" class="col12 fuente12"></td>
+                            <td><input type="radio" name="campo14"></td>
+                            <td><input type="radio" name="campo14"></td>
+                            <td><input type="text" class="col12 fuente12"></td>
+                            <td><input type="number" class="col12 input-mes fuente12"></td>
+                            <td><input type="number" class="col12 input-anio fuente12"></td>
+                            <td><input type="number" class="col12 fuente12"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="col12 fuente12"></td>
+                            <td><input type="number" class="col12 fuente12"></td>
+                            <td><input type="radio" name="campo15"></td>
+                            <td><input type="radio" name="campo15"></td>
+                            <td><input type="text" class="col12 fuente12"></td>
+                            <td><input type="number" class="col12 input-mes fuente12"></td>
+                            <td><input type="number" class="col12 input-anio fuente12"></td>
+                            <td><input type="number" class="col12 fuente12"></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="columna col12">
+                    <p class="fuente9">ESPECIFIQUE LOS IDIOMAS DIFERENTES AL ESPAÑOL QUE: HABLA,
+                        LEE, ESCRIBE DE FORMA, REGULAR (R), BIEN (B), O MUY BIEN (MB)</p>
+                    <div class="fila">
+                        <div class="columna col2"></div>
+                        <div class="columna col8">
+                            <table class="col12">
+                                <thead>
+                                    <tr>
+                                        <th rowspan="2">IDIOMA</th>
+                                        <th colspan="3">LO HABLA</th>
+                                        <th colspan="3">LO LEE</th>
+                                        <th colspan="3">LO ESCRIBE</th>
+                                    </tr>
+                                    <tr>
+                                        <th>R</th>
+                                        <th>B</th>
+                                        <th>MB</th>
+                                        <th>R</th>
+                                        <th>B</th>
+                                        <th>MB</th>
+                                        <th>R</th>
+                                        <th>B</th>
+                                        <th>MB</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><input type="text" class="col12 fuente12"></td>
+                                        <td><input type="radio" name="campo31"></td>
+                                        <td><input type="radio" name="campo31"></td>
+                                        <td><input type="radio" name="campo31"></td>
+                                        <td><input type="radio" name="campo41"></td>
+                                        <td><input type="radio" name="campo41"></td>
+                                        <td><input type="radio" name="campo41"></td>
+                                        <td><input type="radio" name="campo51"></td>
+                                        <td><input type="radio" name="campo51"></td>
+                                        <td><input type="radio" name="campo51"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="text" class="col12 fuente12"></td>
+                                        <td><input type="radio" name="campo32"></td>
+                                        <td><input type="radio" name="campo32"></td>
+                                        <td><input type="radio" name="campo32"></td>
+                                        <td><input type="radio" name="campo42"></td>
+                                        <td><input type="radio" name="campo42"></td>
+                                        <td><input type="radio" name="campo42"></td>
+                                        <td><input type="radio" name="campo52"></td>
+                                        <td><input type="radio" name="campo52"></td>
+                                        <td><input type="radio" name="campo52"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <span class="circulo">3</span>
+        <span class="circulo px">EXPERIENCIA LABORAL</span>
+
+        <div class="contenedor-2">
+            <div class="fila fuente10">
+                <div class="columna col12 borde-abajo"><br>
+                    RELACIONE S EXPERIENCIA LABORAL O DE PRESTACION DE SERVICIOS EN ESTRICTO ORDEN CRONOLOGICO COMENZANDO POR EL ACTUAL <br><br>
+                </div>
+                <div class="fila">
+                    <div class="columna col12 azulado centrado borde-abajo">
+                        EMPLEO ACTUAL O CONTRATO VIGENTE</div>
+                    <div class="columna col6 borde-der">
+                            EMPRESA O ENTIDAD <input type="text" class="col12">
+                    </div>
+                    <div class="columna col1 borde-der centrado">
+                        PÚBLICA <br><br> <input type="radio" name="tipoentidad1">
+                    </div>
+                    <div class="columna col1 borde-der centrado">
+                        PRIVADA <br><br> <input type="radio" name="tipoentidad1">
+                    </div>
+                    <div class="columna col4">
+                        PAÍS <input type="text" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba borde-der">
+                        DEPARTAMENTO <input type="text" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba borde-der">
+                        MUNICIPIO <input type="text" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba">
+                        EMAIL DE LA ENTIDAD <input type="email" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba borde-der">
+                        TELEFONOS <input type="number" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba borde-der centrado">
+                        FECHA DE INGRESO
+                        <div class="fila">
+                            <div class="columna col3 sin-padding">
+                                DIA
+                                <input type="number" class="col3 borde">
+                                <input type="number" class="col3 borde">
+                            </div>
+                            <div class="columna col4 sin-padding">
+                                MES
+                                <input type="number" class="col3 borde">
+                                <input type="number" class="col3 borde">
+                            </div>
+                            <div class="columna col5 sin-padding">
+                                AÑO
+                                <input type="number" class="col2 borde">
+                                <input type="number" class="col2 borde">
+                                <input type="number" class="col2 borde">
+                                <input type="number" class="col1 borde">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columna col4 borde-arriba centrado">
+                        FECHA DE RETIRO
+                        <div class="fila">
+                            <div class="columna col3 sin-padding">
+                                DIA
+                                <input type="number" class="col3 borde">
+                                <input type="number" class="col3 borde">
+                            </div>
+                            <div class="columna col4 sin-padding">
+                                MES
+                                <input type="number" class="col3 borde">
+                                <input type="number" class="col3 borde">
+                            </div>
+                            <div class="columna col5 sin-padding">
+                                AÑO
+                                <input type="number" class="col2 borde">
+                                <input type="number" class="col2 borde">
+                                <input type="number" class="col2 borde">
+                                <input type="number" class="col1 borde">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columna col4 borde-arriba borde-der">
+                        CARGO O CONTRATO ACTUAL <input type="text" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba borde-der">
+                        DEPENDENCIA <input type="text" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba">
+                        DIRECCIÒN <input type="email" class="col12">
+                    </div>
+                </div>
+
+                <div class="fila">
+                    <div class="columna col12 azulado centrado borde-abajo borde-arriba">
+                        EMPLEO O CONTRATO ANTERIOR</div>
+                    <div class="columna col6 borde-der">
+                            EMPRESA O ENTIDAD <input type="text" class="col12">
+                    </div>
+                    <div class="columna col1 borde-der centrado">
+                        PÚBLICA <br><br> <input type="radio" name="tipoentidad1">
+                    </div>
+                    <div class="columna col1 borde-der centrado">
+                        PRIVADA <br><br> <input type="radio" name="tipoentidad1">
+                    </div>
+                    <div class="columna col4">
+                        PAÍS <input type="text" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba borde-der">
+                        DEPARTAMENTO <input type="text" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba borde-der">
+                        MUNICIPIO <input type="text" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba">
+                        EMAIL DE LA ENTIDAD <input type="email" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba borde-der">
+                        TELEFONOS <input type="number" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba borde-der centrado">
+                        FECHA DE INGRESO
+                        <div class="fila">
+                            <div class="columna col3 sin-padding">
+                                DIA
+                                <input type="number" class="col3 borde">
+                                <input type="number" class="col3 borde">
+                            </div>
+                            <div class="columna col4 sin-padding">
+                                MES
+                                <input type="number" class="col3 borde">
+                                <input type="number" class="col3 borde">
+                            </div>
+                            <div class="columna col5 sin-padding">
+                                AÑO
+                                <input type="number" class="col2 borde">
+                                <input type="number" class="col2 borde">
+                                <input type="number" class="col2 borde">
+                                <input type="number" class="col1 borde">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columna col4 borde-arriba centrado">
+                        FECHA DE RETIRO
+                        <div class="fila">
+                            <div class="columna col3 sin-padding">
+                                DIA
+                                <input type="number" class="col3 borde">
+                                <input type="number" class="col3 borde">
+                            </div>
+                            <div class="columna col4 sin-padding">
+                                MES
+                                <input type="number" class="col3 borde">
+                                <input type="number" class="col3 borde">
+                            </div>
+                            <div class="columna col5 sin-padding">
+                                AÑO
+                                <input type="number" class="col2 borde">
+                                <input type="number" class="col2 borde">
+                                <input type="number" class="col2 borde">
+                                <input type="number" class="col1 borde">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columna col4 borde-arriba borde-der">
+                        CARGO O CONTRATO ACTUAL <input type="text" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba borde-der">
+                        DEPENDENCIA <input type="text" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba">
+                        DIRECCIÒN <input type="email" class="col12">
+                    </div>
+                </div>
+
+                <div class="fila">
+                    <div class="columna col12 azulado centrado borde-abajo borde-arriba">
+                        EMPLEO O CONTRATO ANTERIOR</div>
+                    <div class="columna col6 borde-der">
+                            EMPRESA O ENTIDAD <input type="text" class="col12">
+                    </div>
+                    <div class="columna col1 borde-der centrado">
+                        PÚBLICA <br><br> <input type="radio" name="tipoentidad1">
+                    </div>
+                    <div class="columna col1 borde-der centrado">
+                        PRIVADA <br><br> <input type="radio" name="tipoentidad1">
+                    </div>
+                    <div class="columna col4">
+                        PAÍS <input type="text" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba borde-der">
+                        DEPARTAMENTO <input type="text" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba borde-der">
+                        MUNICIPIO <input type="text" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba">
+                        EMAIL DE LA ENTIDAD <input type="email" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba borde-der">
+                        TELEFONOS <input type="number" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba borde-der centrado">
+                        FECHA DE INGRESO
+                        <div class="fila">
+                            <div class="columna col3 sin-padding">
+                                DIA
+                                <input type="number" class="col3 borde">
+                                <input type="number" class="col3 borde">
+                            </div>
+                            <div class="columna col4 sin-padding">
+                                MES
+                                <input type="number" class="col3 borde">
+                                <input type="number" class="col3 borde">
+                            </div>
+                            <div class="columna col5 sin-padding">
+                                AÑO
+                                <input type="number" class="col2 borde">
+                                <input type="number" class="col2 borde">
+                                <input type="number" class="col2 borde">
+                                <input type="number" class="col1 borde">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columna col4 borde-arriba centrado">
+                        FECHA DE RETIRO
+                        <div class="fila">
+                            <div class="columna col3 sin-padding">
+                                DIA
+                                <input type="number" class="col3 borde">
+                                <input type="number" class="col3 borde">
+                            </div>
+                            <div class="columna col4 sin-padding">
+                                MES
+                                <input type="number" class="col3 borde">
+                                <input type="number" class="col3 borde">
+                            </div>
+                            <div class="columna col5 sin-padding">
+                                AÑO
+                                <input type="number" class="col2 borde">
+                                <input type="number" class="col2 borde">
+                                <input type="number" class="col2 borde">
+                                <input type="number" class="col1 borde">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columna col4 borde-arriba borde-der">
+                        CARGO O CONTRATO ACTUAL <input type="text" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba borde-der">
+                        DEPENDENCIA <input type="text" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba">
+                        DIRECCIÒN <input type="email" class="col12">
+                    </div>
+                </div>
+
+                <div class="fila">
+                    <div class="columna col12 azulado centrado borde-abajo borde-arriba">
+                        EMPLEO O CONTRATO ANTERIOR</div>
+                    <div class="columna col6 borde-der">
+                            EMPRESA O ENTIDAD <input type="text" class="col12">
+                    </div>
+                    <div class="columna col1 borde-der centrado">
+                        PÚBLICA <br><br> <input type="radio" name="tipoentidad1">
+                    </div>
+                    <div class="columna col1 borde-der centrado">
+                        PRIVADA <br><br> <input type="radio" name="tipoentidad1">
+                    </div>
+                    <div class="columna col4">
+                        PAÍS <input type="text" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba borde-der">
+                        DEPARTAMENTO <input type="text" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba borde-der">
+                        MUNICIPIO <input type="text" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba">
+                        EMAIL DE LA ENTIDAD <input type="email" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba borde-der">
+                        TELEFONOS <input type="number" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba borde-der centrado">
+                        FECHA DE INGRESO
+                        <div class="fila">
+                            <div class="columna col3 sin-padding">
+                                DIA
+                                <input type="number" class="col3 borde">
+                                <input type="number" class="col3 borde">
+                            </div>
+                            <div class="columna col4 sin-padding">
+                                MES
+                                <input type="number" class="col3 borde">
+                                <input type="number" class="col3 borde">
+                            </div>
+                            <div class="columna col5 sin-padding">
+                                AÑO
+                                <input type="number" class="col2 borde">
+                                <input type="number" class="col2 borde">
+                                <input type="number" class="col2 borde">
+                                <input type="number" class="col1 borde">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columna col4 borde-arriba centrado">
+                        FECHA DE RETIRO
+                        <div class="fila">
+                            <div class="columna col3 sin-padding">
+                                DIA
+                                <input type="number" class="col3 borde">
+                                <input type="number" class="col3 borde">
+                            </div>
+                            <div class="columna col4 sin-padding">
+                                MES
+                                <input type="number" class="col3 borde">
+                                <input type="number" class="col3 borde">
+                            </div>
+                            <div class="columna col5 sin-padding">
+                                AÑO
+                                <input type="number" class="col2 borde">
+                                <input type="number" class="col2 borde">
+                                <input type="number" class="col2 borde">
+                                <input type="number" class="col1 borde">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columna col4 borde-arriba borde-der">
+                        CARGO O CONTRATO ACTUAL <input type="text" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba borde-der">
+                        DEPENDENCIA <input type="text" class="col12">
+                    </div>
+                    <div class="columna col4 borde-arriba">
+                        DIRECCIÒN <input type="email" class="col12">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <span class="circulo">4</span>
+        <span class="circulo px">TIEMPO TOTAL DE EXPERIENCIA</span>
+
+        <div class="contenedor-2">
+            <div class="fila fuente10">
+                <div class="columna col12"><br>
+                    INDIQUE EL TIEMPO TOTAL DE SU EXPERIENCIA LABORAL EN NÚMERO DE
+                    AÑOS Y MESES <br>
+                </div>
+                <div class="columna col1"></div>
+                <div class="columna col10">
+                    <table class="col12">
+                        <thead>
+                            <tr>
+                                <th rowspan="2">OCUPACIÓN</th>
+                                <th colspan="2">TIEMPO DE EXPERIENCIA</th>
+                            </tr>
+                            <tr>
+                                <th>AÑOS</th>
+                                <th>MESES</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>SERVIDOR PUBLICO</td>
+                                <td class="centrado"><input type="number" class="col12 input-tiempo"></td>
+                                <td class="centrado"><input type="number" class="col12 input-tiempo"></td>
+                            </tr>
+                            <tr>
+                                <td>EMPLEADO DEL SECTOR PRIVADO</td>
+                                <td class="centrado"><input type="number" class="col12 input-tiempo"></td>
+                                <td class="centrado"><input type="number" class="col12 input-tiempo"></td>
+                            </tr>
+                            <tr>
+                                <td>TRABAJADOR INDEPENDIENTE</td>
+                                <td class="centrado"><input type="number" class="col12 input-tiempo"></td>
+                                <td class="centrado"><input type="number" class="col12 input-tiempo"></td>
+                            </tr>
+                            <tr>
+                                <td>TOTAL TIEMPO EXPERIENCIA</td>
+                                <td class="centrado"><input type="number" class="col12 input-tiempo"></td>
+                                <td class="centrado"><input type="number" class="col12 input-tiempo"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br>
+                </div>
+            </div>
+        </div>
+
+        <span class="circulo">5</span>
+        <span class="circulo px">FIRMA DEL SERVIDOR PUBLICO O CONTRATISTA</span>
+
+        <div class="contenedor-2 p10 fuente10">
+            <br>MANIFIESTO BAJO LA GRAVEDAD DEL JURAMENTO QUE SI
+            <input type="radio" name="juramento"> NO <input type="radio" name="juramento">
+            ME ENCUENTRO DENTRO DE LAS CAUSALES DE INHABILIDAD E INCOMPATIBILIDAD DEL ORDEN CONSTITUCIONAL O LEGAL, PARA EJERCER CARGOS EMPLEOS PUBLICOS O PARA CELEBRAR
+            CONTRATOS DE PRESTACION DE SERVICIOS CON LA ADMINITRACION PUBLICA.
+            <br><br>
+            PARA TODOS LOS EFECTOS, CERTIFICO QUE LOS DATOS POR MI ANOTADOS EN EL PRESENTE FORMATO UNICO DE HOJA DE VIDA, SON VERACES, (ARTICULO 5o. DE LA LEY 190/95).
+            <br><br>
+            <div class="fila">
+                <br>Ciudad y fecha de diligenciamiento
+                <input type="text" class="col6 input_">
+            </div>
+            <div class="centrado"><br><br>
+                <input type="text" class="col6 input_">
+                <br>FIRMA DEL SERVIDOR PUBLICO O CONTRATISTA
+            </div>
+        </div>
+
+        <span class="circulo">6</span>
+        <span class="circulo px">OBSERVACION DEL JEFE DE RECURSOS HUMANOS Y/O CONTRATOS</span>
+
+        <div class="contenedor-2 p10 fuente10">
+            <textarea class="textarea col12" id="" cols="90" rows="4"></textarea>
+            <br><br>
+            CERTIFICO QUE LA INFORMACION AQUI SUMINISTRADA HA SIDO CONSTATADA FRENTE
+            A LOS DOCUMENTOS QUE HAN SIDO PRESENTADOS COMO SOPORTE. <br><br>
+            <div class="fila">
+                <div class="columna col6">
+                    <input type="text" class="col12 input_"><br>
+                    Ciudad y fecha
+                </div>
+                <div class="columna col6">
+                    <input type="text" class="col12 input_"><br>
+                    NOMBRE Y FIRMA DEL JEFE DE PERSONAL O DE CONTRATOS
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+</html>
